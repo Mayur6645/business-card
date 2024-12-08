@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+h3:hover{
+    background-color: aqua;
+    color:violet;
+}
+
+.card {
+    width: 400px;
+    /* 
+    Challenge:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    */
+    margin:0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fbb1bd;
+    color: #2b2839;
+    border-bottom: 6px groove #d8cefe;
+    border-radius:15px;
+    text-shadow: 2px 2px;
+    animation-name: example;
+    animation-duration: 8s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: goldenrod;}
+}
+.border-blue {
+    border: 1px dotted blue;
+}
